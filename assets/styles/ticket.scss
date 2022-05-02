@@ -1,0 +1,61 @@
+.ticket {
+    margin-top: 100px;
+    font-size: 60px;
+    color: $light;
+    font-weight: 800;
+}
+
+.text {
+    color: $light;
+    font-weight: 400;
+    font-size: 20px;
+    margin-top: 16px;
+}
+
+.animals {
+    aspect-ratio: 1;
+    object-fit: cover;
+    border-radius: 10px;
+    height: 427px;
+    position: relative;
+}
+
+.card {
+    border-radius: 10px;
+    width: 283px;
+    height: 427px;
+}
+
+.card-footer {
+    height: 120px;
+    background-color:rgba(9,35,48,.6);
+    // border-style: dotted none none;
+        h2 {
+            font-size: 20px;
+        }
+}
+
+.card-footer:last-child {
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.card-img-overlay {
+    height: 427px;
+    width: 283px;
+}
+
+.card-text {
+    color: #deaf00;
+    font-weight: 800;
+    font-size: 16px;
+}
+
+.option {
+    z-index: 1;
+    display: grid;
+    position: absolute;
+    color: $light;
+    margin-top: 15px;
+    margin-left: 15px;
+}

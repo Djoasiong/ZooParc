@@ -1,0 +1,75 @@
+.container {
+    display: grid;
+}
+
+.promotion {
+    margin-top: 100px;
+    text-align: center;
+}
+
+.panda {
+    height: 250px;
+    width: 900px;
+    object-fit: cover;
+    max-width: 100%;
+}
+
+.title {
+    background-color: $light;
+    box-shadow: 2px 2px 2px rgba(0,0,0,.15);
+    width: 300px;
+    height: auto;
+    margin: auto;
+    margin-top: -290px;
+}
+
+.vente {
+    color: red;
+}
+
+.col {
+    display: grid;
+    justify-content: center;
+    margin: auto;
+}
+
+.price {
+    color: #deaf00;
+    font-size: 24px;
+}
+
+.smallprice {
+    font-size: 12px;
+}
+
+.age {
+    font-size: 14px;
+}
+
+#clockdiv {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    font-family: sans-serif;
+    color: red;
+    font-weight: bold;
+    text-align: center;
+    font-size: 14px;
+}
+#clockdiv > div {
+    padding: 10px;
+    border-radius: 3px;
+    display: inline-block;
+}
+#clockdiv div > span {
+    padding: 10px;
+    border-radius: 3px;
+    background: $primary;
+    display: inline-block;
+}
+.smalltext {
+    padding-top: 5px;
+    font-size: 10px;
+    color: black;
+    font-weight: 100;
+}
