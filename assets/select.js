@@ -1,20 +1,17 @@
-// function toggleBorder(img) {
-//     if(!img.style.border||img.style.borderLeftStyle=='none') {
-//       img.style.border = "3px solid #deaf00";
-//     } else {
-//       img.style.border = "none";
-//     }
-//   }
-let toggleImages = document.querySelector('.toggleImg');
-console.log(toggleImages);
+
+let toggleImages = document.querySelectorAll('.toggleImg');
 function toggleBorder(e) {
-  console.log('test');
-if (!e.target.style.border || img.style.borderLeftStyle == 'none') {
-  e.target.style.border = '3px solid #DEAF00'
-} else {
-  e.target.style.border = 'none';
-}
+  if (!e.target.style.border || e.target.style.borderLeftStyle == 'none') {
+      let toggleImages = document.querySelectorAll('.toggleImg');
+      for (var i = 0; i < toggleImages.length; i++) {
+          toggleImages[i].style.border ='none';
+        }
+    e.target.style.border = '3px solid #deaf00';
+    e.target.style.borderRadius = '10px';
+  } else {
+    e.target.style.border = 'none';
+  }
 }
 for (var i = 0; i < toggleImages.length; i++) {
-toggleImages[i].addEventListener('click', toggleBorder, false);
-} 
+  toggleImages[i].addEventListener('click', toggleBorder);
+}
